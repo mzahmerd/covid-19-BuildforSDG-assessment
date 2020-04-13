@@ -1,4 +1,3 @@
-
 best_case = "best"
 severe_case = "severe"
 
