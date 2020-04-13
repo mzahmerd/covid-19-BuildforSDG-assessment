@@ -58,9 +58,9 @@ def estimate_dollars_in_flight(data, case):
 def get_days(data):
   periodType = data['periodType']
   time = data['timeToElapse']
-  if(periodType is 'weeks'):
+  if(periodType == 'weeks'):
     return time * 7
-  elif(periodType is 'months'):
+  elif(periodType == 'months'):
     return time * 30
   else:
     return time
